@@ -1,0 +1,82 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 1000px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+/* .buttons{
+	font-size: 23px;
+	background-color: yellow;
+	padding: 10px;
+} */
+
+#color {
+	font-size: 23px;
+	background-color: yellow;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#place{
+	font-size: 23px;
+	background-color: yellow;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#ritual{
+	font-size: 23px;
+	background-color: yellow;
+	padding: 10px;
+	cursor: pointer;
+}
+
+#sub-btn{
+	font-size: 15px;
+	background-color: yellow;
+	padding: 1px;
+	cursor: pointer;
+	animation:animate 5s infinite ;
+}
+@keyframes animate {
+	0%{background-color:red ;}
+	20%{background-color:rgb(124, 6, 124) ;}
+	40%{background-color: blue;}
+	60%{background-color: yellow;}
+	80%{background-color: orange;}
+	100%{background-color: rgb(255, 0, 0);}
+	}
+	
